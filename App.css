@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+  background-color: rgb(32, 18, 70);
+}
+
+.App-logo {
+  height: 38vmin;
+  pointer-events: none;
+  color: rgb(55, 27, 131);
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.container {
+  background-image: url(./img/notebook2.png);
+  background-repeat: no-repeat;
+  position: center;
+  min-height: 500px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.App-header {
+  clear: both;
+  background-color: #282c34;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.jumbotron {
+  margin-bottom: 0rem;
+  color: rgb(55, 27, 131);
+  background: rgb(78, 28, 108);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 28, 108, 1) 0%,
+    rgba(29, 225, 253, 1) 25%,
+    rgba(69, 252, 148, 1) 75%,
+    rgba(9, 115, 55, 1) 100%
+  );
+}
+
+.lead {
+  font-size: 30px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(-20deg);
+    color: #000;
+  }
+  to {
+    transform: rotate(200deg);
+    color: rgb(76, 253, 153);
+  }
+}
+
+img {
+  transform: rotate(10deg);
+  opacity: 0.85;
+  overflow: hidden;
+}
+
+.btn-dark {
+  margin-top: 40px;
+  border: none;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 0.4em;
+  background: rgb(78, 28, 108);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 28, 108, 1) 5%,
+    rgba(35, 90, 236, 1) 10%,
+    rgba(29, 225, 253, 1) 15%,
+    rgba(68, 217, 40, 1) 20%,
+    rgba(85, 220, 42, 1) 25%,
+    rgba(242, 250, 60, 1) 30%,
+    rgba(244, 134, 0, 1) 35%,
+    rgba(244, 0, 0, 1) 40%,
+    rgba(255, 81, 231, 1) 45%,
+    rgba(255, 197, 237, 1) 50%,
+    rgba(78, 28, 108, 1) 55%,
+    rgba(35, 90, 236, 1) 60%,
+    rgba(29, 225, 253, 1) 65%,
+    rgba(68, 217, 40, 1) 70%,
+    rgba(242, 250, 60, 1) 75%,
+    rgba(244, 134, 0, 1) 80%,
+    rgba(244, 0, 0, 1) 85%,
+    rgba(255, 81, 231, 1) 90%,
+    rgba(255, 197, 237, 1) 95%
+  );
+}
+
+.btn-dark:hover {
+  opacity: 0.7;
+  color: black;
+  font-weight: bold;
+}
+
+.Footer {
+  background: rgb(78, 28, 108);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 28, 108, 1) 0%,
+    rgba(29, 225, 253, 1) 25%,
+    rgba(69, 252, 148, 1) 75%,
+    rgba(9, 115, 55, 1) 100%
+  );
+  margin-top: 30px;
+  min-height: 130px;
+}
+
+.background {
+  overflow: hidden;
+}
+
+#to-do-form input {
+  background-color: rgb(73, 171, 236);
+  border: 0;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+#to-do-form input::placeholder {
+  color: rgba(255, 255, 255, 0.753);
+}
+#to-do-form input:focus {
+  outline: none;
+}
+#to-do-form button {
+  height: 40px;
+  width: 50px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(140, 151, 248);
+  cursor: pointer;
+}
+#to-do-form button:focus {
+  outline: none;
+}
